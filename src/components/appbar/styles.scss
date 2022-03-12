@@ -1,0 +1,47 @@
+
+@import url(../../scss/index.scss);
+// #a0a0a0;
+
+header{
+    font-family: 'Sora', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 10vh;
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #133260;
+
+    .inner-container{
+        
+        display: flex;
+        justify-content: flex-end;
+        
+
+        ul{
+            width: 18.75rem;
+            display: flex;
+            color: #ababab;
+
+            
+
+            list-style-type: none;
+
+            li{
+                display: flex;
+                align-items: center;
+                margin-left: 1rem;
+                cursor: pointer;
+
+                &:hover{
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}

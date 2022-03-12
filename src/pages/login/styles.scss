@@ -1,0 +1,99 @@
+@import "../../scss/index.scss";
+
+.full-page-container{
+    font-family: 'Sora', sans-serif;
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+
+    .login-container{
+        box-sizing:content-box;
+        
+        width: 62.5rem;
+        display: flex;
+        height: 70vh;
+
+        justify-content: center;
+
+        border: 2px solid #a4a4a4;
+        padding: 1rem;
+        border-radius: .3125rem;
+
+
+        
+    
+    
+        .login-img-container{
+            background-image: url(../../assets/login-img.jpg);
+            background-size: cover;
+            background-position: 0% 50%;
+
+            width: 50%;
+            overflow: hidden;
+            border-radius: .3125rem;
+    
+        }
+
+        .login-form{
+            width: 50%;
+            padding: 0 4rem;
+
+            h2{
+                font-size: 2.25rem;
+            }
+
+            p{
+                font-size: 1.125rem;
+                margin-bottom: 2rem;
+            }
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            form{
+                
+
+                label{
+                    width: 100%;
+                    font-size: 1.125rem;
+
+                    input{
+                        width: 100%;
+                        margin-bottom: 1rem;
+                        border-radius: .3125rem;
+                        
+                       
+                    }
+                    
+                }
+
+                
+
+                input[type=submit]{
+                    background-color:
+                    #b80818;
+                    color: white;
+                    width: 100%;
+                    border: none;
+                    line-height: 2;
+                    border-radius: .3125rem;
+
+                    &:hover{
+                        background-color:
+                        #f52032;
+                    }
+                    
+                }
+
+            }
+        }
+    
+    
+    }
+}
+
