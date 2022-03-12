@@ -1,7 +1,5 @@
 import React, { useState }  from 'react';
-import loginImg from '../../assets/login-img.jpg';
 
-import DashBoardPage from '../dashboard/DashBoardPage';
 
 import { useNavigate } from 'react-router-dom';
 
